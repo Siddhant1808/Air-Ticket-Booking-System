@@ -38,7 +38,7 @@ def addrecord():
         except ValueError:
             first_part = ''.join(random.choice(string.digits) for _ in range(2))
 
-    #FROM
+    #FROM the place
     FROM=input("ENTER PLACE OF DEPARTURE:")
     TO=input("ENTER PLACE OF ARRIVAL:")
 
