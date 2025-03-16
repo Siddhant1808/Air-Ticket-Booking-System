@@ -5,7 +5,7 @@ import os
 import random
 import string
 
-#INITIALISING RECORDS/COLUMNS
+#INITIALIZING RECORDS/COLUMNS
 try:
     with open("flightrecord.csv", "x") as fout:
         obj = csv.writer(fout)
